@@ -1,3 +1,8 @@
+<?php
+$index = -1;
+setcookie("index",$index);
+
+?>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -16,7 +21,8 @@
         <p style="font-size:13px;">만일 삼성 인터넷을 사용하실 경우 하단의 ≡을 눌러 설정을 들어간 후</p>
         <p style="font-size:13px;">화면 구성을 클릭한 후 웹페이지 확대/축소 항목이 꺼져있는지 확인바랍니다.</p>
         <br>
-        <input type="button"  value="다음" onclick="location.href='./test1.html'">
+        <input type="button"  value="다음" onclick="location.href='./test.php'">
+        
         </span>
         </div>
       </div>
